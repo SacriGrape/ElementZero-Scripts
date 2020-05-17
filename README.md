@@ -11,4 +11,4 @@ Credit to ElementZero for its awesome API. You can find them over here: https://
 
 Credit to the ElementZero Telegram for helping me out with some of the API stuff as well as listening to my requests and ideas.
 
-Credit to my friend Luke who helped me with my scripts when I was too stupid to understand what to do. You can find him at @consolelogluke on twitter.
+Credit to my friend Luke who helped me with my scripts when I was too stupid to understand what to do. You can find him at https://twitter.com/ConsoleLogLuke 
