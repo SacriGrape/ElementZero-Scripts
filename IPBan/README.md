@@ -5,6 +5,37 @@ the command for banning players.
 # Requirements
 This script relies on another, simpler, script. permissionHandler.js. Its used for making sure only someone
 has operator perms. It also relies on an index
+Basic list of required imports:
+    `permissionHandler.js` function
+    
+    `system` Required in every script that uses the vanilla API
+    
+    `onPlayerJoined` from ez:player
+    
+    `onChat` from ez:chat
+    
+    `sendBroadcast` from ez:chat
+    
+    `executeCommand` from ez:command
+    
+    `getPlayerByNAME` from ez:player
+    
+    `addByNAME` from ez:blacklist
+    
+    `addByXUID` from ez:player
+    
+    `open` from ez:sqlite3
+    
+    `getOfflinePlayerByNAME` from ez:player
+#### MOD REQUIREMENTS
+    This mod only uses the built in stuff so you don't need to worry about finding another mod to use
+    `ScriptingSupport` required in every script
+    
+    `ChatAPI`
+    
+    `Blacklist`
+    
+    `CommandSupport`
 
 # Usage
 In order to use this script, you must be an op and be on the server. Due to limitations, I can't read console
