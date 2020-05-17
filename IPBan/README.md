@@ -49,11 +49,11 @@ Another downside is that the command is broadcast to chat. Meaning if you are ba
 # Known bugs
 None! Go ahead and send me a message if you find one!
 #### Social medias:
-- Twitter: @SacriPudding
+- Twitter: https://twitter.com/SacriPudding
 - Discord: @SacriPudding#1281
 - Telegram: @SacriPudding
-- Reddit: u/evan13lee
-- GitHub: Take a guess
+- Reddit: https://reddit.com/u/evan13lee
+- GitHub: https://github.com/SacriPudding (Crazy I know)
 
 # Plans
 - VPN detection VIA GeoIP
