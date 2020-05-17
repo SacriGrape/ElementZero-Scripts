@@ -36,10 +36,15 @@ so you have to be in game.
 For IP banning, the player you are banning DOES NOT need to be online. Banning will work whether or not said
 person is online.
 
+The default command is `.banip [gamertag]`
+If you wish to change it all you have to do is adjust the `banCommand` variable inside of `IPBan.js`
+
 # Downsides
 One downside to this script is that it is not possible to ban new IPs the user joins on after they are on
 the blacklist. They won't be able to get on as they are still server banned but if they make a new account
 they will be able to join again.
+
+Another downside is that the command is broadcast to chat. Meaning if you are banning someone while people are online those people will know.
 
 # Known bugs
 None! Go ahead and send me a message if you find one!
