@@ -3,39 +3,31 @@ This is the IP Banning script. It essentially works by creating a constant log o
 the command for banning players.
 
 # Requirements
-This script relies on another, simpler, script. permissionHandler.js. Its used for making sure only someone
-has operator perms. It also relies on an index
+This script relies on another, simpler, script. `permissionHandler.js`. Its used for making sure only someone
+has operator perms. It also relies on an `index.js` to actually create the listening events.
 Basic list of required imports:
-    `permissionHandler.js` function
-    
-    `system` Required in every script that uses the vanilla API
-    
-    `onPlayerJoined` from ez:player
-    
-    `onChat` from ez:chat
-    
-    `sendBroadcast` from ez:chat
-    
-    `executeCommand` from ez:command
-    
-    `getPlayerByNAME` from ez:player
-    
-    `addByNAME` from ez:blacklist
-    
-    `addByXUID` from ez:player
-    
-    `open` from ez:sqlite3
-    
-    `getOfflinePlayerByNAME` from ez:player
+- `permissionHandler.js` function   
+- `system` Required in every script that uses the vanilla API
+- `onPlayerJoined` from ez:player
+- `onChat` from ez:chat
+- `sendBroadcast` from ez:chat
+- `executeCommand` from ez:command
+- `getPlayerByNAME` from ez:player
+- `addByNAME` from ez:blacklist
+- `addByXUID` from ez:player
+- `open` from ez:sqlite3  
+- `getOfflinePlayerByNAME` from ez:player
+
 #### MOD REQUIREMENTS
-    This mod only uses the built in stuff so you don't need to worry about finding another mod to use
-    `ScriptingSupport` required in every script
-    
-    `ChatAPI`
-    
-    `Blacklist`
-    
-    `CommandSupport`
+This mod only uses the built in stuff so you don't need to worry about finding another mod to use
+- `ScriptingSupport` required in every script
+- `ChatAPI`
+- `Blacklist` 
+- `CommandSupport`
+
+#### DATABASE REQUIREMENT
+This mod requires you to use a database for storing the IPs, XUIDs, and gamertags of your players.
+The database can be found here, make sure to just put it into the root directory of your server (Where the .exe is)
 
 # Usage
 In order to use this script, you must be an op and be on the server. Due to limitations, I can't read console
@@ -51,18 +43,18 @@ they will be able to join again.
 
 # Known bugs
 None! Go ahead and send me a message if you find one!
-    Social medias:
-        Twitter: @SacriPudding
-        Discord: @SacriPudding#1281
-        Telegram: @SacriPudding
-        Reddit: u/evan13lee
-        GitHub: Take a guess
+#### Social medias:
+- Twitter: @SacriPudding
+- Discord: @SacriPudding#1281
+- Telegram: @SacriPudding
+- Reddit: u/evan13lee
+- GitHub: Take a guess
+
 # Plans
-    VPN detection VIA GeoIP
-    
-    Console based command. (Need to find some way to talk to console. Currently in development.)
-    
-    Losing the need for `index.js` opting for a drag-and-drop system.
+- VPN detection VIA GeoIP
+- Console based command. (Need to find some way to talk to console. Currently in development.) 
+- Losing the need for `index.js` opting for a drag-and-drop system.
+
 # Credits
 A lot of this came from my friend Luke. This was my first "real" plugin and also one of my first JS scripts
 in general. Follow him over at https://twitter.com/ConsoleLogLuke. He is into mostly iPhone jailbreaking.
